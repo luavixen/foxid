@@ -1,1 +1,2 @@
-export default (size?: number) => string
+declare function foxid(size?: number): string
+export = foxid
