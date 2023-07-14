@@ -1,6 +1,6 @@
 {
     "name": "foxid",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Microscopic ID generator for Node.js.",
     "author": "Lua MacDougall <lua@foxgirl.dev> (https://foxgirl.dev/)",
     "license": "MIT",

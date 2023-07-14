@@ -1,6 +1,7 @@
 # foxid
 Microscopic ID generator for Node.js.
 
+ * URL-friendly
  * Incredibly simple
  * Good-enough performance
  * Cryptographically secure
