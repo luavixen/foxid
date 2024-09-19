@@ -1,6 +1,6 @@
 {
     "name": "foxid",
-    "version": "1.2.0",
+    "version": "1.3.1",
     "description": "Microscopic ID generator for Node.js.",
     "author": "Lua MacDougall <lua@foxgirl.dev> (https://foxgirl.dev/)",
     "license": "MIT",
@@ -10,8 +10,15 @@
         "nanoid",
         "random"
     ],
-    "main": "lib/foxid.js",
-    "types": "lib/foxid.d.ts",
+    "main": "./lib/foxid.js",
+    "types": "./lib/foxid.d.ts",
+    "exports": {
+        ".": {
+            "node": "./lib/foxid.js",
+            "browser": "./lib/foxid-browser.js",
+            "default": "./lib/foxid-browser.js"
+        }
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/luavixen/foxid.git"

@@ -5,6 +5,7 @@ Microscopic ID generator for Node.js.
  * Incredibly simple
  * Good-enough performance
  * Cryptographically secure
+ * Node.js and browser support
 
 ```javascript
 var foxid = require('foxid')
