@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luavixen/foxid.git"
+    "url": "git+https://git.vixen.computer/lua/foxid.git"
   },
   "bugs": {
-    "url": "https://github.com/luavixen/foxid/issues"
+    "url": "https://git.vixen.computer/lua/foxid/issues"
   },
-  "homepage": "https://github.com/luavixen/foxid"
+  "homepage": "https://git.vixen.computer/lua/foxid"
 }
